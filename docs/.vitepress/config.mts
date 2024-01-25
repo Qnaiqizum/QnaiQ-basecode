@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import { nav, sidebar } from "./relaConfs";
 
 export default defineConfig({
+  base:'/qnaiqizum.gitee.io/',
   lastUpdated: true,
   srcDir: "./src",
   title: "QnaiQ的弹药库",
