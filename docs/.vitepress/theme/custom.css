@@ -30,3 +30,9 @@
   --vp-c-brand-2: var(--vp-c-purple-2);
   --vp-c-brand-3: var(--vp-c-purple-3);
 }
+
+/* text Theme */
+.vp-doc h2 {
+  font-size: 28px;
+  margin-bottom: 48px;
+}

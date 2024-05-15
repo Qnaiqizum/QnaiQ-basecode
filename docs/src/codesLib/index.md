@@ -1,3 +1,12 @@
+<!-- ---
+prev:
+  text: "上一篇"
+  link: "/"
+next:
+  text: "下一篇"
+  link: "/"
+--- -->
+
 # Markdown+vitepress
 
 ## Markdown 扩展语法
@@ -48,7 +57,7 @@ export default {
 
 ## 导入 md 文件
 
-<!--@include: ./parts/index.md{1,3}-->
+<!-- @include: ./parts/index.md{1,3} -->
 
 ## 数据加载
 

@@ -5,30 +5,34 @@ layout: home
 hero:
   name: "QnaiQ的弹药库"
   text: "方法库、组件库"
-  tagline:
-    ------------这是一条分割线------------------
+  tagline: ------------这是一条分割线------------------
 
   # 右侧图片，alt：图片bug时显示的文字
   # image:
   #   src: /Meme1.png
   #   alt: 英雄图片
+
   image:
     light: /Meme1.png
     dark: /123.webp
-    alt: 英雄图片
+    alt: 这有一张图片
 
   actions:
     # brand 蓝色圆角按钮
     - theme: brand
       text: 一些代码小记
-      link: /codes/
+      link: /codesLib/
     - theme: alt
       text: 方 法 库
-      link: /functions/
+      link: /functionsLib/
     # alt 灰色圆角按钮
     - theme: alt
       text: 组 件 库
-      link: /components/
+      link: /componentsLib/
+    # alt 灰色圆角按钮
+    - theme: alt
+      text: 知 识 库
+      link: /knowledgeLib/h5c3Base
 
 features:
   - icon: ⚡️

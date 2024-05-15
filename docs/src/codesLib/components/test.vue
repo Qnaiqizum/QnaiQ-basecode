@@ -6,6 +6,8 @@
 
 <script lang="ts" setup>
 const list = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+var arr = [3, 6, 7, 1, 9];
+console.log(Math.max.apply(null, arr));
 </script>
 
 <style scoped>
